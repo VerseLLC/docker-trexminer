@@ -13,5 +13,5 @@ WORKER_NAME=deepblue
 
 cd "$(dirname "$0")"
 
-/root/t-rex -a ethash -o stratum+ssl://$SERVER -u $WALLET x -w $WORKER_NAME -d 1
+/root/t-rex -a ethash -o stratum+ssl://$SERVER -u $WALLET -w $WORKER_NAME -d 1
 
