@@ -7,13 +7,13 @@ WORKDIR /root
 
 RUN apt update
 RUN apt -y install wget 
-RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.5/t-rex-0.19.5-linux-cuda11.1.tar.gz
+RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.9/t-rex-0.19.9-linux-cuda11.1.tar.gz
 
-RUN tar -xzf t-rex-0.19.5-linux-cuda11.1.tar.gz
+RUN tar -xzf t-rex-0.19.9-linux-cuda11.1.tar.gz
 
-ENV ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
-ENV SERVER=us1.ethermine.org
-ENV WORKER_NAME=worker0
+ENV ETH_ADDRESS=0x39a5E2e6da689Be87D6E4f38BD144942E90e85a7
+ENV SERVER=us2.ethermine.org
+ENV WORKER_NAME=deepblue
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
