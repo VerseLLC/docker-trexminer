@@ -3,6 +3,8 @@ FROM nvidia/cuda:11.1-base-ubuntu18.04
 
 LABEL Gershon <gershon@medooza.io>
 
+EXPOSE 4067
+
 WORKDIR /root
 
 RUN apt update
