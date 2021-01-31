@@ -4,7 +4,7 @@
 #################################
 
 SERVER=us2.ethermine.org:5555
-ETH_ADDRESS=0x39a5E2e6da689Be87D6E4f38BD144942E90e85a7
+ETH_ADDRESS="0x39a5E2e6da689Be87D6E4f38BD144942E90e85a7"
 WORKER_NAME=rig1 
 
 #################################
