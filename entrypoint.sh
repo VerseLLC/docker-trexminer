@@ -13,5 +13,5 @@ WORKER_NAME=rig1
 
 cd "$(dirname "$0")"
 
-/root/t-rex -a ethash -o stratum+ssl://$SERVER -u $WALLET -w $WORKER_NAME -d 0
+/root/t-rex -a ethash -o stratum+ssl://$SERVER -u $WALLET -w $WORKER_NAME -c /config/ethermine.conf
 
